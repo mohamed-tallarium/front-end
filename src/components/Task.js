@@ -8,8 +8,8 @@ const Task = (props) => {
     // Return JSX that displays the id, title, and description
     return (
         <div className="task">
-            <div class="flex">
-                <h2 class="mr2">ID: {id} </h2>
+            <div className="flex">
+                <h2 className="mr2">ID: {id} </h2>
                 <h2>{title}</h2>
             </div>
             <p>{description}</p>

@@ -5,7 +5,6 @@ import TaskWrapper from "./components/TaskWrapper";
 const App = () => {
     const [tasks, setTasks] = useState([]);
     const [loading, setLoading] = useState(true);
-    const [error, setError] = useState(null);
 
     // Fetch tasks when the component mounts
     useEffect(() => {
